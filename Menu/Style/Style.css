@@ -1,0 +1,31 @@
+li{
+    display: inline;
+    border: 3px solid purple;
+    text-decoration: none;
+    padding:5px 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px){
+#diario {
+    display: none;
+    position: hidden;
+}
+}
+
+@media only screen and (max-width: 760px){
+    #as {
+        display: none;
+        position: hidden;
+    }
+    }
+
+@media only screen and (max-width: 480px){
+    #mundo {
+        display: none;
+        position: hidden;
+    }
+    }
